@@ -1,1 +1,0 @@
-# wit-galeria-frontend
