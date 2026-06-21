@@ -35,7 +35,7 @@ jobs:
         run: cd wit-galeria && npm install
 
       - name: Build
-        run: cd wit-galeria && npm run build
+        run: cd wit-galeria && npm run build -- --base=/wit-galeria-frontend/
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
